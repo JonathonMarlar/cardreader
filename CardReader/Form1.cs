@@ -31,11 +31,13 @@ namespace CardReader
                 }
                 cardInputBox.Text = "";
                 okayLabel.Visible = true;
+                instructionsLabel.Visible = false;
                 Timer t = new Timer();
                 t.Interval = 2000;
                 t.Tick += (s, n) =>
                 {
                     okayLabel.Visible = false;
+                    instructionsLabel.Visible = true;
                     t.Stop();
                 };
                 t.Start();
