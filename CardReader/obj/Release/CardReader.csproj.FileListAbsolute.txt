@@ -7,3 +7,12 @@ C:\Users\jmarlar\Documents\CardReader\CardReader\obj\Release\CardReader.csproj.G
 C:\Users\jmarlar\Documents\CardReader\CardReader\obj\Release\CardReader.exe
 C:\Users\jmarlar\Documents\CardReader\CardReader\obj\Release\CardReader.pdb
 C:\Users\jmarlar\Documents\cardreader\CardReader\obj\Release\CardReader.csprojResolveAssemblyReference.cache
+C:\Users\Cole\Documents\cardreader\CardReader\bin\Release\CardReader.exe.config
+C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.exe
+C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.pdb
+C:\Users\Cole\Documents\cardreader\CardReader\bin\Release\CardReader.exe
+C:\Users\Cole\Documents\cardreader\CardReader\bin\Release\CardReader.pdb
+C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.csprojResolveAssemblyReference.cache
+C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.Form1.resources
+C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.Properties.Resources.resources
+C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.csproj.GenerateResource.Cache

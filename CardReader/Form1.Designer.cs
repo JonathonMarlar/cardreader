@@ -74,9 +74,11 @@
             // howToSwipePic
             // 
             this.howToSwipePic.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.howToSwipePic.Image = global::CardReader.Properties.Resources.card_scan;
             this.howToSwipePic.Location = new System.Drawing.Point(444, 338);
             this.howToSwipePic.Name = "howToSwipePic";
-            this.howToSwipePic.Size = new System.Drawing.Size(210, 166);
+            this.howToSwipePic.Size = new System.Drawing.Size(162, 212);
+            this.howToSwipePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.howToSwipePic.TabIndex = 3;
             this.howToSwipePic.TabStop = false;
             // 
