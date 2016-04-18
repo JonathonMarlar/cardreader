@@ -41,12 +41,13 @@
             // 
             this.instructionsLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.instructionsLabel.AutoSize = true;
-            this.instructionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructionsLabel.Location = new System.Drawing.Point(138, 85);
+            this.instructionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.instructionsLabel.Location = new System.Drawing.Point(69, 108);
             this.instructionsLabel.Name = "instructionsLabel";
-            this.instructionsLabel.Size = new System.Drawing.Size(505, 219);
+            this.instructionsLabel.Size = new System.Drawing.Size(647, 185);
             this.instructionsLabel.TabIndex = 0;
-            this.instructionsLabel.Text = "Please scan\r\nyour Mane Card\r\nhere";
+            this.instructionsLabel.Text = "The QEP Office needs to know how many\r\npeople attend Research Days events.\r\n\r\nPle" +
+    "ase scan your Mane Card to help us\r\ncollect the needed data.";
             this.instructionsLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.instructionsLabel.Click += new System.EventHandler(this.instructionsLabel_Click);
             // 
@@ -64,7 +65,7 @@
             this.okayLabel.AutoSize = true;
             this.okayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.okayLabel.ForeColor = System.Drawing.Color.Green;
-            this.okayLabel.Location = new System.Drawing.Point(51, 140);
+            this.okayLabel.Location = new System.Drawing.Point(53, 146);
             this.okayLabel.Name = "okayLabel";
             this.okayLabel.Size = new System.Drawing.Size(679, 108);
             this.okayLabel.TabIndex = 2;
@@ -77,7 +78,7 @@
             // 
             this.howToSwipePic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.howToSwipePic.Image = global::CardReader.Properties.Resources.card_scan;
-            this.howToSwipePic.Location = new System.Drawing.Point(444, 338);
+            this.howToSwipePic.Location = new System.Drawing.Point(554, 321);
             this.howToSwipePic.Name = "howToSwipePic";
             this.howToSwipePic.Size = new System.Drawing.Size(162, 212);
             this.howToSwipePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,11 +91,11 @@
             this.cardInstructLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cardInstructLabel.AutoSize = true;
             this.cardInstructLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cardInstructLabel.Location = new System.Drawing.Point(121, 356);
+            this.cardInstructLabel.Location = new System.Drawing.Point(64, 372);
             this.cardInstructLabel.Name = "cardInstructLabel";
-            this.cardInstructLabel.Size = new System.Drawing.Size(293, 148);
+            this.cardInstructLabel.Size = new System.Drawing.Size(340, 111);
             this.cardInstructLabel.TabIndex = 4;
-            this.cardInstructLabel.Text = "Make sure your\r\ncard\'s stripe\r\nis facing AWAY\r\nfrom the green light";
+            this.cardInstructLabel.Text = "Make sure your card\'s \r\nstripe is facing AWAY\r\nfrom the green light";
             this.cardInstructLabel.Click += new System.EventHandler(this.cardInstructLabel_Click);
             // 
             // Form1
