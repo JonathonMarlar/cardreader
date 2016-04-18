@@ -16,3 +16,12 @@ C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.csprojResol
 C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.Form1.resources
 C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.Properties.Resources.resources
 C:\Users\Cole\Documents\cardreader\CardReader\obj\Release\CardReader.csproj.GenerateResource.Cache
+C:\Users\jmarlar\cardreader\CardReader\bin\Release\CardReader.exe.config
+C:\Users\jmarlar\cardreader\CardReader\obj\Release\CardReader.exe
+C:\Users\jmarlar\cardreader\CardReader\obj\Release\CardReader.pdb
+C:\Users\jmarlar\cardreader\CardReader\bin\Release\CardReader.exe
+C:\Users\jmarlar\cardreader\CardReader\bin\Release\CardReader.pdb
+C:\Users\jmarlar\cardreader\CardReader\obj\Release\CardReader.csprojResolveAssemblyReference.cache
+C:\Users\jmarlar\cardreader\CardReader\obj\Release\CardReader.Form1.resources
+C:\Users\jmarlar\cardreader\CardReader\obj\Release\CardReader.Properties.Resources.resources
+C:\Users\jmarlar\cardreader\CardReader\obj\Release\CardReader.csproj.GenerateResource.Cache

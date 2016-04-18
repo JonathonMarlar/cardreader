@@ -42,12 +42,13 @@
             this.instructionsLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.instructionsLabel.AutoSize = true;
             this.instructionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructionsLabel.Location = new System.Drawing.Point(58, 43);
+            this.instructionsLabel.Location = new System.Drawing.Point(138, 85);
             this.instructionsLabel.Name = "instructionsLabel";
-            this.instructionsLabel.Size = new System.Drawing.Size(652, 292);
+            this.instructionsLabel.Size = new System.Drawing.Size(505, 219);
             this.instructionsLabel.TabIndex = 0;
-            this.instructionsLabel.Text = "Please scan\r\nyour Mane Card\r\nwhen you enter\r\nand before you leave";
+            this.instructionsLabel.Text = "Please scan\r\nyour Mane Card\r\nhere";
             this.instructionsLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.instructionsLabel.Click += new System.EventHandler(this.instructionsLabel_Click);
             // 
             // cardInputBox
             // 
@@ -63,13 +64,14 @@
             this.okayLabel.AutoSize = true;
             this.okayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.okayLabel.ForeColor = System.Drawing.Color.Green;
-            this.okayLabel.Location = new System.Drawing.Point(53, 227);
+            this.okayLabel.Location = new System.Drawing.Point(51, 140);
             this.okayLabel.Name = "okayLabel";
             this.okayLabel.Size = new System.Drawing.Size(679, 108);
             this.okayLabel.TabIndex = 2;
             this.okayLabel.Text = "Card scanned!";
             this.okayLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.okayLabel.Visible = false;
+            this.okayLabel.Click += new System.EventHandler(this.okayLabel_Click);
             // 
             // howToSwipePic
             // 
@@ -81,6 +83,7 @@
             this.howToSwipePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.howToSwipePic.TabIndex = 3;
             this.howToSwipePic.TabStop = false;
+            this.howToSwipePic.Click += new System.EventHandler(this.howToSwipePic_Click);
             // 
             // cardInstructLabel
             // 
@@ -92,6 +95,7 @@
             this.cardInstructLabel.Size = new System.Drawing.Size(293, 148);
             this.cardInstructLabel.TabIndex = 4;
             this.cardInstructLabel.Text = "Make sure your\r\ncard\'s stripe\r\nis facing AWAY\r\nfrom the green light";
+            this.cardInstructLabel.Click += new System.EventHandler(this.cardInstructLabel_Click);
             // 
             // Form1
             // 
@@ -107,6 +111,7 @@
             this.MinimumSize = new System.Drawing.Size(640, 480);
             this.Name = "Form1";
             this.Text = "Card Reader v1.0";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.howToSwipePic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -43,5 +43,30 @@ namespace CardReader
                 t.Start();
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void instructionsLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void okayLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cardInstructLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void howToSwipePic_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
